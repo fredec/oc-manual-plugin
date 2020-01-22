@@ -1,0 +1,4 @@
+title: Manual
+modelClass: Diveramkt\Manual\Models\Manual
+toolbar:
+    buttons: reorder_toolbar

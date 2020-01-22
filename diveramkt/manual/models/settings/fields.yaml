@@ -1,0 +1,5 @@
+fields:
+    numero:
+        label: 'Número do whatsapp'
+        span: auto
+        type: text

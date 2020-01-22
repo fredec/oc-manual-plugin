@@ -1,0 +1,10 @@
+name: Videos
+form: $/diveramkt/manual/models/videos/fields.yaml
+modelClass: Diveramkt\Manual\Models\Videos
+defaultRedirect: diveramkt/manual/videos
+create:
+    redirect: 'diveramkt/manual/videos/update/:id'
+    redirectClose: diveramkt/manual/videos
+update:
+    redirect: diveramkt/manual/videos
+    redirectClose: diveramkt/manual/videos

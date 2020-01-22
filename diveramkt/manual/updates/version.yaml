@@ -1,0 +1,8 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table diveramkt_manual_videos'
+    - builder_table_create_diveramkt_manual_videos.php
+1.0.3:
+    - 'Created table diveramkt_manual_preview'
+    - builder_table_create_diveramkt_manual_preview.php

@@ -1,0 +1,13 @@
+fields:
+    title:
+        label: Título
+        span: left
+        type: text
+    description:
+        label: Descrição
+        span: right
+        type: text
+    cod_embed:
+        label: 'Código do Embed'
+        span: left
+        type: text

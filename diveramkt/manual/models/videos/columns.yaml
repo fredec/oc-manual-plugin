@@ -1,0 +1,5 @@
+columns:
+    title:
+        label: Títutlo
+        type: text
+        searchable: true

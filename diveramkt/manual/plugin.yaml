@@ -1,0 +1,29 @@
+plugin:
+    name: Manual
+    description: 'Adicionar manual do site'
+    author: Diveramkt
+    icon: oc-icon-book
+    homepage: ''
+permissions:
+    manage_videos_manual:
+        tab: 'diveramkt.manual::lang.plugin.name'
+        label: 'Gerenciar vídeos do manual'
+    manage_manual:
+        tab: 'diveramkt.manual::lang.plugin.name'
+        label: 'Visualizar Manual'
+navigation:
+    main-menu-manual:
+        label: Manual
+        url: diveramkt/manual/manual
+        icon: icon-book
+        sideMenu:
+            side-menu-manual-preview:
+                label: Manual
+                url: diveramkt/manual/manual
+                icon: icon-list
+            side-menu-videos-manual:
+                label: 'Gerenciar Vídeos'
+                url: diveramkt/manual/videos
+                icon: icon-youtube-play
+                permissions:
+                    - manage_videos_manual

@@ -1,0 +1,10 @@
+name: Manual
+form: $/diveramkt/manual/models/manual/fields.yaml
+modelClass: Diveramkt\Manual\Models\Manual
+defaultRedirect: diveramkt/manual/manual
+create:
+    redirect: 'diveramkt/manual/manual/update/:id'
+    redirectClose: diveramkt/manual/manual
+update:
+    redirect: diveramkt/manual/manual
+    redirectClose: diveramkt/manual/manual
