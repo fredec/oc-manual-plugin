@@ -16,11 +16,15 @@ navigation:
         label: Manual
         url: diveramkt/manual/manual
         icon: icon-book
+        permissions:
+                    - manage_manual
         sideMenu:
             side-menu-manual-preview:
                 label: Manual
                 url: diveramkt/manual/manual
                 icon: icon-list
+                permissions:
+                    - manage_manual
             side-menu-videos-manual:
                 label: 'Gerenciar Vídeos'
                 url: diveramkt/manual/videos
