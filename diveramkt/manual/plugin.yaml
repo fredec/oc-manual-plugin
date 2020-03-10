@@ -5,10 +5,10 @@ plugin:
     icon: oc-icon-book
     homepage: ''
 permissions:
-    manage_videos_manual:
+    manual.manage_videos_manual:
         tab: 'diveramkt.manual::lang.plugin.name'
         label: 'Gerenciar vídeos do manual'
-    manage_manual:
+    manual.manage_manual:
         tab: 'diveramkt.manual::lang.plugin.name'
         label: 'Visualizar Manual'
 navigation:
