@@ -11,9 +11,7 @@ class Videos extends Controller
     public $formConfig = 'config_form.yaml';
     public $reorderConfig = 'config_reorder.yaml';
 
-    public $requiredPermissions = [
-        'manage_videos_manual' 
-    ];
+    public $requiredPermissions = [ 'diveramkt.manual.manage_videos_manual' ];
 
     public function __construct()
     {

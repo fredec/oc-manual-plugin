@@ -4,30 +4,30 @@ plugin:
     author: Diveramkt
     icon: oc-icon-book
     homepage: ''
-permissions:
-    manual.manage_videos_manual:
-        tab: 'diveramkt.manual::lang.plugin.name'
-        label: 'Gerenciar vídeos do manual'
-    manual.manage_manual:
-        tab: 'diveramkt.manual::lang.plugin.name'
-        label: 'Visualizar Manual'
-navigation:
-    main-menu-manual:
-        label: Manual
-        url: diveramkt/manual/manual
-        icon: icon-book
-        permissions:
-                    - manage_manual
-        sideMenu:
-            side-menu-manual-preview:
-                label: Manual
-                url: diveramkt/manual/manual
-                icon: icon-list
-                permissions:
-                    - manage_manual
-            side-menu-videos-manual:
-                label: 'Gerenciar Vídeos'
-                url: diveramkt/manual/videos
-                icon: icon-youtube-play
-                permissions:
-                    - manage_videos_manual
+# permissions:
+#     manual.manage_videos_manual:
+#         tab: 'diveramkt.manual::lang.plugin.name'
+#         label: 'Gerenciar vídeos do manual'
+#     manual.manage_manual:
+#         tab: 'diveramkt.manual::lang.plugin.name'
+#         label: 'Visualizar Manual'
+# navigation:
+#     main-menu-manual:
+#         label: Manual
+#         url: diveramkt/manual/manual
+#         icon: icon-book
+#         permissions:
+#             - manage_manual
+#         sideMenu:
+#             side-menu-manual-preview:
+#                 label: Manual
+#                 url: diveramkt/manual/manual
+#                 icon: icon-list
+#                 permissions:
+#                     - manage_manual
+#             side-menu-videos-manual:
+#                 label: 'Gerenciar Vídeos'
+#                 url: diveramkt/manual/videos
+#                 icon: icon-youtube-play
+#                 permissions:
+#                     - manage_videos_manual

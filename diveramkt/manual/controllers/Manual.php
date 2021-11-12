@@ -13,16 +13,14 @@ class Manual extends Controller
     public $formConfig = 'config_form.yaml';
     public $reorderConfig = 'config_reorder.yaml';
 
-    public $requiredPermissions = [
-        'manage_manual' 
-    ];
+    public $requiredPermissions = [ 'diveramkt.manual.manage_manual' ];
 
     public $videos=array();
 
     public function __construct()
     {
         parent::__construct();
-        BackendMenu::setContext('Diveramkt.Manual', 'main-menu-manual');
+        BackendMenu::setContext('Diveramkt.Manual', 'main-menu-manual', 'side-menu-manual-preview');
 
         $this->videos=Videos::orderBy('sort_order','asc')->get();
     // $this->videos=new videos();

@@ -6,3 +6,6 @@
 1.0.3:
     - 'Created table diveramkt_manual_preview'
     - builder_table_create_diveramkt_manual_preview.php
+1.0.4:
+    - 'Updated table diveramkt_manual_videos'
+    - builder_table_update_diveramkt_manual_videos.php

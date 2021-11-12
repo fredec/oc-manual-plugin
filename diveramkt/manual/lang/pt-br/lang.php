@@ -1,6 +1,8 @@
 <?php return [
     'plugin' => [
         'name' => 'Manual',
-        'description' => ''
+        'description' => '',
+        'view_videos' => 'Visualizar Manual',
+        'manage_videos' => 'Gerenciar vídeos do manual',
     ]
 ];
